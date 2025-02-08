@@ -14,7 +14,7 @@ const CarouselHomeProduct: React.FC = () => {
         "https://hadibeauty.com/wp-content/uploads/2021/10/nuoc-hoa-chanel-gabrielle-eau-de-parfum.webp",
     },
     {
-      name: "NHC NARCISO RODRIGUEZ",
+      name: "NƯỚC HOA CHIẾT FULLSIZE",
       image:
         "https://bizweb.dktcdn.net/100/443/867/files/nuoc-hoa-narciso-rodriguez-musc-noir-for-her-edp-chiet-10ml.png?v=1695733627308",
     },
