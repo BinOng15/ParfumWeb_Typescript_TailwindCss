@@ -45,7 +45,7 @@ const CustomHeader: React.FC = () => {
 
   return (
     <>
-      <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
+      <header className="flex items-center justify-between px-6 py-4 bg-white shadow-xl">
         <div className="flex items-center">
           {/* <select className="border border-gray-300 rounded-md px-2 py-1">
                         <option>Vietnamese</option>
@@ -54,7 +54,7 @@ const CustomHeader: React.FC = () => {
         </div>
         <div className="ml-[250px]">
           <img
-            src="public/Screenshot 2024-12-20 150332.png"
+            src="/Screenshot 2024-12-20 150332.png"
             alt="EundeParfum"
             className="h-12 w-auto"
           />
@@ -82,7 +82,7 @@ const CustomHeader: React.FC = () => {
           </Button>
         </div>
       </header>
-      <nav className="flex justify-center space-x-6 text-gray-800 font-medium bg-white shadow-md py-3">
+      <nav className="flex justify-center space-x-6 text-gray-800 font-medium bg-white shadow-xl border-b border-gray-200 py-3">
         <Link to="/" className="relative hover:text-pink-600 text-center">
           TRANG CHỦ
           {location.pathname === "/" && (
@@ -90,11 +90,11 @@ const CustomHeader: React.FC = () => {
           )}
         </Link>
         <Link
-          to="/perfume"
+          to="/perfumeProduct"
           className="relative hover:text-pink-600 text-center"
         >
           NƯỚC HOA
-          {location.pathname === "/perfume" && (
+          {location.pathname === "/perfumeProduct" && (
             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-pink-600 rounded-md"></span>
           )}
         </Link>

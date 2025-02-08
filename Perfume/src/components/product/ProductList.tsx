@@ -472,7 +472,7 @@ const ProductList: React.FC = () => {
 
         {/* Nội dung bên phải */}
         <div className="md:w-2/3 text-center md:text-left">
-          <h2 className="text-3xl font-bold text-[#FF1493] mb-4">
+          <h2 className="text-3xl font-bold text-[#FF8787] mb-4">
             Giới Thiệu Về Eun de Parfum
           </h2>
           <p className="text-lg max-w-4xl mx-auto">
@@ -502,7 +502,7 @@ const ProductList: React.FC = () => {
           <div className="mt-6">
             <a
               href="/about"
-              className="bg-[#FF1493] text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-[#E0137B] transition duration-300"
+              className="bg-[#FF8787] text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-[#FF8787] transition duration-300"
             >
               Tìm hiểu thêm về chúng tôi
             </a>

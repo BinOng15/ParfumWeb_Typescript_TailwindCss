@@ -20,7 +20,7 @@ const CustomFooter: React.FC = () => {
               alt="Eun de Parfum"
               className="w-12 h-12 mr-2 rounded-full"
             />
-            <h2 className="text-xl font-bold text-[#FF1493]">EUN DE PARFUM</h2>
+            <h2 className="text-xl font-bold text-[#FF8787]">EUN DE PARFUM</h2>
           </div>
           <p className="text-gray-300">
             Thế giới nước hoa dành cho học sinh, sinh viên và những người có thu
@@ -48,22 +48,22 @@ const CustomFooter: React.FC = () => {
           </h3>
           <ul className="text-gray-300 space-y-2">
             <li>
-              <a href="/about" className="hover:text-[#FF1493]">
+              <a href="/about" className="hover:text-[#FF8787]">
                 Giới thiệu thương hiệu
               </a>
             </li>
             <li>
-              <a href="/policy" className="hover:text-[#FF1493]">
+              <a href="/policy" className="hover:text-[#FF8787]">
                 Chính sách bảo mật
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-[#FF1493]">
+              <a href="/contact" className="hover:text-[#FF8787]">
                 Liên hệ
               </a>
             </li>
             <li>
-              <a href="/shipping" className="hover:text-[#FF1493]">
+              <a href="/shipping" className="hover:text-[#FF8787]">
                 Chính sách vận chuyển
               </a>
             </li>
@@ -113,9 +113,9 @@ const CustomFooter: React.FC = () => {
 
       {/* Copyright */}
       <div className="text-center text-gray-400 text-sm mt-6">
-        &copy; 2024 <span className="text-[#FF1493]">EUN DE PARFUM</span>. All
+        &copy; 2024 <span className="text-[#FF8787]">EUN DE PARFUM</span>. All
         Rights Reserved · Design by{" "}
-        <a href="#" className="text-[#FF1493]">
+        <a href="#" className="text-[#FF8787]">
           Your Team
         </a>
       </div>
