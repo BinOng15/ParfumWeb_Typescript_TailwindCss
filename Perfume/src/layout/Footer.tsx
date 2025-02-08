@@ -16,7 +16,7 @@ const CustomFooter: React.FC = () => {
         <div className="md:w-1/3 mb-6 md:mb-0">
           <div className="flex items-center mb-3">
             <img
-              src="dist/logo/logo1.webp"
+              src="/logo.webp"
               alt="Eun de Parfum"
               className="w-12 h-12 mr-2 rounded-full"
             />

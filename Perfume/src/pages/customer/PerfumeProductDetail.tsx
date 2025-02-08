@@ -367,7 +367,7 @@ const PerfumeProductDetail: React.FC = () => {
             {displayedReviews.map((user, index) => (
               <div key={index} className="border-b pb-4">
                 <p className="font-semibold">
-                  {user.name} ✅ Khách hàng của Orchard.vn
+                  {user.name} ✅ Khách hàng của EundeParfum.vn
                 </p>
                 <p className="text-orange-500">★★★★★</p>
                 <p className="text-gray-700">{user.review}</p>

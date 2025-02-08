@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Input, Pagination, Select } from "antd";
+import { Breadcrumb, Input, Pagination, Select } from "antd";
 import {
   SearchOutlined,
   HeartOutlined,
@@ -116,6 +116,20 @@ const PerfumeProduct: React.FC = () => {
               </span>
             </div>
           ))}
+        </div>
+        {/* PHẦN TIÊU ĐỀ TRANG */}
+        <div className="mb-6">
+          <h1 className="text-3xl font-bold text-gray-900">Nước Hoa</h1>
+          <Breadcrumb className="text-gray-500 mt-1">
+            <Breadcrumb.Item>
+              <a href="/" className="hover:text-gray-800">
+                Trang chủ
+              </a>
+            </Breadcrumb.Item>
+            <Breadcrumb.Item className="text-black font-semibold">
+              Nước Hoa
+            </Breadcrumb.Item>
+          </Breadcrumb>
         </div>
 
         {/* Bộ lọc & Tìm kiếm */}
