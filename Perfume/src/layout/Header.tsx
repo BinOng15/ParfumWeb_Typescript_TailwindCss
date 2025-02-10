@@ -1,7 +1,7 @@
 import { ShoppingCartOutlined, HeartOutlined } from "@ant-design/icons";
 import React, { useState } from "react";
 import { Badge, Button } from "antd";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SignupModal from "../components/sigup/sigup";
 import LoginModal from "../components/login/login";
 
@@ -10,6 +10,7 @@ import LoginModal from "../components/login/login";
 const CustomHeader: React.FC = () => {
   const [isLoginModalVisible, setIsLoginModalVisible] = useState(false);
   const [isSignupModalVisible, setIsSignupModalVisible] = useState(false);
+  const navigate = useNavigate(); // Hook để điều hướng trang
   const location = useLocation();
   const showLoginModal = () => {
     setIsLoginModalVisible(true);
@@ -63,7 +64,8 @@ const CustomHeader: React.FC = () => {
           <Badge count={9} offset={[0, 0]} color="red">
             <HeartOutlined className="text-lg cursor-pointer" />
           </Badge>
-          <Badge count={9} offset={[0, 0]} color="red">
+          <Badge count={9} offset={[0, 0]} color="red"
+            onClick={() => navigate(`/cart`)}>
             <ShoppingCartOutlined className="text-lg cursor-pointer" />
           </Badge>
           <Button
